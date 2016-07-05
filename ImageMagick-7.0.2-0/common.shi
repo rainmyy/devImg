@@ -1,0 +1,22 @@
+# Test environment
+top_srcdir='/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0'
+top_builddir='/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0'
+
+set -a
+COMPARE="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick compare"
+COMPOSITE="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick composite"
+CONJURE="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick conjure"
+CONVERT="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick convert"
+DISPLAY="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick display"
+IDENTIFY="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick identify"
+MAGICK="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick"
+MONTAGE="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities/magick montage"
+VALIDATE="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/tests/validate"
+DRAWTEST="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/tests/drawtest"
+WANDTEST="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/tests/wandtest"
+LD_LIBRARY_PATH="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/coders"
+MAGICK_CONFIGURE_PATH="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/config:/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/config"
+MAGICK_FILTER_MODULE_PATH="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/filters"
+PATH="/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/utilities:/Users/apple/Sites/dev.img.com/ImageMagick-7.0.2-0/tests:${PATH}"
+set +a
